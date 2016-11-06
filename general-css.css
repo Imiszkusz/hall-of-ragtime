@@ -1,0 +1,37 @@
+body {
+  font-family: garamond;
+}
+
+#photos {
+  margin-bottom: 30px;
+}
+
+.rags {
+  font-size: 16px;
+  font-weight:bold;
+}
+
+
+.left-nav {
+  position: fixed;
+  transform: rotate(90deg);
+  transform-origin: 0 100%;
+  background-color: rgba(60, 119, 61, 0.5);
+  border-radius: 10px;
+  padding: 5px 5px 0 5px;
+}
+
+.nav-btn {
+  transform: rotate(180deg);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+
+#treemonisha {
+	width: 200px;
+	height: 300px;
+	float: right;
+	margin-left: 10px;
+}
