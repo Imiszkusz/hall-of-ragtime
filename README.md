@@ -5,7 +5,7 @@ Hall of Ragtime
 
 HTML/CSS/Pure JS
 * [JSBin](https://jsbin.com) - Collaborative Javascript Debugging App
-* [Bootstrap](http://getbootstrap.com/) - HTML/CSS=Javascript framework for responsive, mobile first projects.
+* [Bootstrap](http://getbootstrap.com/) - HTML/CSS/Javascript framework for responsive, mobile first projects.
 
 
 ## Live View
