@@ -2,9 +2,14 @@ body {
   font-family: garamond;
 }
 
+
 #photos {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
   margin-bottom: 30px;
 }
+
 
 .rags {
   font-size: 16px;
@@ -14,24 +19,76 @@ body {
 
 .left-nav {
   position: fixed;
+  white-space: nowrap;
   transform: rotate(90deg);
   transform-origin: 0 100%;
   background-color: rgba(60, 119, 61, 0.5);
   border-radius: 10px;
   padding: 5px 5px 0 5px;
+  z-index: 3;
 }
 
 .nav-btn {
   transform: rotate(180deg);
-  font-size: 16px;
+  font-size: 1.25rem;
   font-weight: bold;
 }
 
 
+.img-responsive {
+  padding: 2rem;
+}
 
 #treemonisha {
 	width: 200px;
 	height: 300px;
 	float: right;
 	margin-left: 10px;
+}
+
+
+#table-heading, #table-body {
+  display: none;
+}
+
+
+/*
+============================================================================
+Media Querys
+============================================================================
+*/
+
+@media (min-width: 400px){
+  
+    #table-heading, #table-body {
+      display: initial;
+    }
+  
+}
+
+@media (min-width: 600px){
+  
+    .nav-btn {
+      font-size: 1.5rem;
+    }
+
+    #photos {
+      flex-flow: row nowrap;
+    }
+
+    .img-responsive {
+      padding: .5rem;
+      width: 90%;
+    }
+  
+}
+
+
+
+@media (min-width: 1000px){
+
+    .nav-btn {
+      font-size: 1.8rem;
+    }
+  
 }
